@@ -1,0 +1,28 @@
+{
+  "pemula": [
+		{"nama": "Push Up", "set": "x10"},
+		{"nama": "Squat", "set": "x20"},
+		{"nama": "Sit Up", "set": "x10"},
+		{"nama": "Plank", "set": "30 detik"}
+	],
+
+	"menengah": [
+		{"nama": "Push Up", "set": "x20"},
+		{"nama": "Incline Push Up", "set": "x20"},
+		{"nama": "Decline Push Up", "set": "x20"},
+		{"nama": "Squat", "set": "x30"},
+		{"nama": "Sit Up", "set": "x20"},
+		{"nama": "Plank", "set": "30 detik"}
+	],
+
+	"lanjutan": [
+		{"nama":"Push Up", "set":"x30"},
+		{"nama": "Incline Push Up", "set": "x30"},
+		{"nama": "Decline Push Up", "set": "x30"},
+		{"nama": "Squat", "set": "x50"},
+		{"nama": "Sit Up", "set": "x50"},
+		{"nama": "Back Extentions", "set": "x20"},
+		{"nama": "Pull Up", "set": "x10"},
+		{"nama": "Plank", "set": "30 detik"}
+	]
+}

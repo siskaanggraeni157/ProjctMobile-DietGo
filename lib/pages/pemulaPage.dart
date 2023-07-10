@@ -19,9 +19,9 @@ class _PemulaPageState extends State<PemulaPage> {
 
     List<Olahraga> olahraga = [
       Olahraga(nama: "push up", jumlah: "x10"),
-      Olahraga(nama: "squat", jumlah: "x20"),
-      Olahraga(nama: "sit up", jumlah: "x10"),
-      Olahraga(nama: "plank", jumlah: "30 detik"),
+      Olahraga(nama: "pull up", jumlah: "x10"),
+      Olahraga(nama: "shoulder press", jumlah: "x12"),
+      Olahraga(nama: "bicep curls", jumlah: "x12"),
     ];
 
     return Scaffold(
@@ -44,7 +44,7 @@ class _PemulaPageState extends State<PemulaPage> {
             margin: const EdgeInsets.only(bottom: 20, left: 20),
             alignment: Alignment.centerLeft,
             child: const Text(
-              "OLAHRAGA PEMULA",
+              "OLAHRAGA LATIHAN TUBUH BAGIAN ATAS",
               style: TextStyle(
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
@@ -95,7 +95,7 @@ class _PemulaPageState extends State<PemulaPage> {
                         const SizedBox(
                           width: 10,
                         ),
-                        const Text("15 Menit",
+                        const Text("20 Menit",
                             style: TextStyle(
                                 fontWeight: FontWeight.bold, fontSize: 16)),
                         const SizedBox(

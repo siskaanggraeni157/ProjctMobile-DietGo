@@ -230,7 +230,7 @@ class _ExercisePageState extends State<ExercisePage> {
                       // ignore: prefer_const_literals_to_create_immutables
                       children: [
                         const Text(
-                          'PROGRAM OLAHRAGA PEMULA',
+                          'PROGRAM LATIHAN TUBUH BAGIAN ATAS',
                           style: TextStyle(
                               color: Colors.white,
                               fontWeight: FontWeight.bold,
@@ -268,7 +268,7 @@ class _ExercisePageState extends State<ExercisePage> {
                       // ignore: prefer_const_literals_to_create_immutables
                       children: [
                         const Text(
-                          'PROGRAM OLAHRAGA MENENGAH',
+                          'PROGRAM LATIHAN TUBUH BAGIAN BAWAH',
                           style: TextStyle(
                               color: Colors.white,
                               fontWeight: FontWeight.bold,
@@ -306,7 +306,7 @@ class _ExercisePageState extends State<ExercisePage> {
                       // ignore: prefer_const_literals_to_create_immutables
                       children: [
                         const Text(
-                          'PROGRAM OLAHRAGA LANJUTAN',
+                          'PROGRAM OLAHRAGA LATIHAN SELURUH TUBUH',
                           style: TextStyle(
                               color: Colors.white,
                               fontWeight: FontWeight.bold,

@@ -20,9 +20,9 @@ class Olahraga {
 class _DoingOlahragaState extends State<DoingOlahraga> {
   List<Olahraga> olahraga = [
     Olahraga(nama: "Push Up", jumlah: "x10"),
-    Olahraga(nama: "Squat", jumlah: "x20"),
-    Olahraga(nama: "Sit Up", jumlah: "x10"),
-    Olahraga(nama: "Plank", jumlah: "30 detik"),
+    Olahraga(nama: "Pull Up", jumlah: "x20"),
+    Olahraga(nama: "Shoulder Press", jumlah: "x10"),
+    Olahraga(nama: "Bicep Curls", jumlah: "30 detik"),
   ];
   int index = 0;
 

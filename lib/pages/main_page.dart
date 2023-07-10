@@ -45,7 +45,7 @@ class _MainPageState extends State<MainPage> {
             const SizedBox(
               width: 15,
             ),
-            const Text('Diet Yuk!')
+            const Text('DietGo')
           ],
         ),
       ),

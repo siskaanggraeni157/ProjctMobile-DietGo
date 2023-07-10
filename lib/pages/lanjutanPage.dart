@@ -17,14 +17,11 @@ class _LanjutanPageState extends State<LanjutanPage> {
     double width = MediaQuery.of(context).size.width;
 
     List<Olahraga> olahraga = [
-      Olahraga(nama: "push up", jumlah: "x30"),
-      Olahraga(nama: "incline push up", jumlah: "x30"),
-      Olahraga(nama: "decline push up", jumlah: "x30"),
-      Olahraga(nama: "squat", jumlah: "x50"),
-      Olahraga(nama: "sit up", jumlah: "x50"),
-      Olahraga(nama: "back extension", jumlah: "x20"),
-      Olahraga(nama: "pull up", jumlah: "x10"),
-      Olahraga(nama: "plank", jumlah: "30 detik"),
+      Olahraga(nama: "burpees", jumlah: "x10"),
+      Olahraga(nama: "mountain climbers", jumlah: "x12"),
+      Olahraga(nama: "jumping jacks", jumlah: "x15"),
+      Olahraga(nama: "high knees", jumlah: "x20"),
+      Olahraga(nama: "plank to push-up", jumlah: "x10"),
     ];
 
     return Scaffold(
@@ -47,7 +44,7 @@ class _LanjutanPageState extends State<LanjutanPage> {
             margin: const EdgeInsets.only(bottom: 20, left: 20),
             alignment: Alignment.centerLeft,
             child: const Text(
-              "OLAHRAGA LANJUTAN",
+              "OLAHRAGA LATIHAN SELURUH TUBUH",
               style: TextStyle(
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
@@ -105,7 +102,7 @@ class _LanjutanPageState extends State<LanjutanPage> {
                           width: 10,
                         ),
                         const Text(
-                          "8 Latihan",
+                          "5 Latihan",
                           style: TextStyle(
                               fontWeight: FontWeight.bold, fontSize: 16),
                         )

@@ -18,12 +18,11 @@ class _MenengahPageState extends State<MenengahPage> {
     double width = MediaQuery.of(context).size.width;
 
     List<Olahraga> olahraga = [
-      Olahraga(nama: "push up", jumlah: "x20"),
-      Olahraga(nama: "incline push up", jumlah: "x20"),
-      Olahraga(nama: "decline push up", jumlah: "x20"),
-      Olahraga(nama: "squat", jumlah: "x30"),
-      Olahraga(nama: "sit up", jumlah: "x20"),
-      Olahraga(nama: "plank", jumlah: "30 detik"),
+      Olahraga(nama: "squat", jumlah: "x10"),
+      Olahraga(nama: "lunges", jumlah: "x12"),
+      Olahraga(nama: "deadlift", jumlah: "x8"),
+      Olahraga(nama: "calf raises", jumlah: "x12"),
+      Olahraga(nama: "leg press", jumlah: "x12"),
     ];
 
     return Scaffold(
@@ -46,7 +45,7 @@ class _MenengahPageState extends State<MenengahPage> {
             margin: const EdgeInsets.only(bottom: 20, left: 20),
             alignment: Alignment.centerLeft,
             child: const Text(
-              "OLAHRAGA MENENGAH",
+              "PROGRAM LATIHAN TUBUH BAGIAN BAWAH",
               style: TextStyle(
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
@@ -104,7 +103,7 @@ class _MenengahPageState extends State<MenengahPage> {
                           width: 10,
                         ),
                         const Text(
-                          "6 Latihan",
+                          "5 Latihan",
                           style: TextStyle(
                               fontWeight: FontWeight.bold, fontSize: 16),
                         )

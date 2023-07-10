@@ -45,7 +45,7 @@ class _DietResepPageState extends State<DietResepPage> {
             const SizedBox(
               width: 10,
             ),
-            const Text("Diet Yuk")
+            const Text("DietGo")
           ],
         ),
       ),
